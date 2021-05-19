@@ -10,6 +10,9 @@ import (
 	tmos "github.com/tendermint/tendermint/libs/os"
 	dbm "github.com/tendermint/tm-db"
 
+	"github.com/Cabemo/nameservice/x/nameservice"
+	nameservicekeeper "github.com/Cabemo/nameservice/x/nameservice/keeper"
+	nameservicetypes "github.com/Cabemo/nameservice/x/nameservice/types"
 	bam "github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/simapp"
@@ -22,10 +25,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/params"
 	"github.com/cosmos/cosmos-sdk/x/staking"
 	"github.com/cosmos/cosmos-sdk/x/supply"
-	"github.com/user/nameservice/x/nameservice"
-	nameservicekeeper "github.com/user/nameservice/x/nameservice/keeper"
-	nameservicetypes "github.com/user/nameservice/x/nameservice/types"
-  // this line is used by starport scaffolding # 1
+	// this line is used by starport scaffolding # 1
 )
 
 const appName = "nameservice"

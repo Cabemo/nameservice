@@ -8,15 +8,15 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
+	"github.com/Cabemo/nameservice/x/nameservice/client/cli"
+	"github.com/Cabemo/nameservice/x/nameservice/client/rest"
+	"github.com/Cabemo/nameservice/x/nameservice/keeper"
+	"github.com/Cabemo/nameservice/x/nameservice/types"
 	"github.com/cosmos/cosmos-sdk/client/context"
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	"github.com/cosmos/cosmos-sdk/x/bank"
-	"github.com/user/nameservice/x/nameservice/client/cli"
-	"github.com/user/nameservice/x/nameservice/client/rest"
-	"github.com/user/nameservice/x/nameservice/keeper"
-	"github.com/user/nameservice/x/nameservice/types"
 )
 
 // Type check to ensure the interface is properly implemented

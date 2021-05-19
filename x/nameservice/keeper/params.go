@@ -1,4 +1,5 @@
 package keeper
+
 /*
 // TODO: Define if your module needs Parameters, if not this can be deleted
 
@@ -6,7 +7,7 @@ import (
 	"time"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/user/nameservice/x/nameservice/types"
+	"github.com/Cabemo/nameservice/x/nameservice/types"
 )
 
 // GetParams returns the total set of nameservice parameters.
